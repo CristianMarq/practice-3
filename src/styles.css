@@ -3,6 +3,42 @@ html body {
   background-color: gainsboro;
 }
 
-h1 {
-  color: aqua;
+#form-prod {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+#form-prod input {
+  display: block;
+  margin-bottom: 15px;
+  font-family: "Roboto";
+  font-size: 1em;
+  height: 15px;
+  width: 230px;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 5px;
+}
+
+label {
+  font-family: "Roboto";
+  font-size: 1.2em;
+  color: gray;
+}
+
+#enviar {
+  background-color: rgb(71, 71, 245);
+  color: white;
+  font-family: "Roboto";
+  font-size: 1em;
+  width: 230px;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid;
+}
+
+#enviar:hover {
+  background-color: blue;
+  cursor: pointer;
 }
