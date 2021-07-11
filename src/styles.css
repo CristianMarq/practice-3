@@ -1,11 +1,12 @@
 html body {
   margin: 0;
-  background-color: gainsboro;
+  padding: 0;
+  background-color: white;
 }
 
 #form-prod {
   position: absolute;
-  left: 50px;
+  left: 15px;
   top: 50px;
 }
 
@@ -19,6 +20,26 @@ html body {
   border-radius: 10px;
   border: 1px solid;
   padding: 5px;
+}
+
+#productos {
+  position: absolute;
+  left: 300px;
+  top: 50px;
+}
+
+#productos-desc th {
+  text-align: left;
+  padding-left: 100px;
+  font-family: "Open Sans";
+  font-weight: 500;
+}
+
+#productos-desc td {
+  text-align: left;
+  padding-left: 100px;
+  font-family: "Open Sans";
+  font-weight: 400;
 }
 
 label {
