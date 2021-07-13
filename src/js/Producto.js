@@ -1,12 +1,16 @@
-class Producto {
+export class Producto {
   codigoProducto;
   nombre;
   descripcion;
   precioVenta;
   existencias;
 
-  constructor(codigoProducto, nombre, descripcion, precioVenta, existencias) {
-    codigoProducto, nombre, descripcion, precioVenta, existencias;
+  constructor(codigo, nombre, descripcion, precioVenta, existencias) {
+    this.codigoProducto = codigo;
+    this.nombre = nombre;
+    this.descripcion = descripcion;
+    this.precioVenta = precioVenta;
+    this.existencias = existencias;
   }
 
   get getCodigoPoducto() {
