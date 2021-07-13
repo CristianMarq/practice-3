@@ -16,5 +16,6 @@ export const creaProducto = (
     precio,
     existencias
   );
-  console.log(producto);
+  productos.push(producto);
+  console.log(productos);
 };
