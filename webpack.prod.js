@@ -72,8 +72,6 @@ module.exports = {
       filename: "[name].[fullhash].css",
       ignoreOrder: false,
     }),
-    // new CopyWebpack({
-    //   patterns: [{ from: "src/assets", to: "assets/" }],
-    // }),
+  
   ],
 };
